@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/density_lab/__init__.py
+src/density_lab/data_generator.py
+src/density_lab/density_models.py
+src/density_lab/experiments.py
+src/density_lab/plots.py
+src/density_lab/utils.py
+src/density_lab_bias_variance.egg-info/PKG-INFO
+src/density_lab_bias_variance.egg-info/SOURCES.txt
+src/density_lab_bias_variance.egg-info/dependency_links.txt
+src/density_lab_bias_variance.egg-info/requires.txt
+src/density_lab_bias_variance.egg-info/top_level.txt
+tests/test_data_generator.py
+tests/test_density_models.py

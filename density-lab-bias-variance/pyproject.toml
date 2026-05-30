@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "density-lab-bias-variance"
+version = "0.1.0"
+description = "Educational density estimation lab for bias, variance, KDE, GMM, and curse of dimensionality."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "streamlit",
+    "starlette>=0.50",
+    "pytest",
+    "jupyter",
+    "nbformat",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

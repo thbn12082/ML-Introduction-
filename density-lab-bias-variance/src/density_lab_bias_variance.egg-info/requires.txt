@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+streamlit
+starlette>=0.50
+pytest
+jupyter
+nbformat
