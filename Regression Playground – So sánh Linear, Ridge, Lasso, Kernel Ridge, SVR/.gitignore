@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.streamlit/
+outputs/figures/*.png
+outputs/reports/*.csv
+
